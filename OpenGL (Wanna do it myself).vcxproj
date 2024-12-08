@@ -152,8 +152,28 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\OpenGL Engine\glad.c" />
+    <ClCompile Include="EBO.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ShaderClass.cpp" />
     <ClCompile Include="stb.cpp" />
+    <ClCompile Include="VAO.cpp" />
+    <ClCompile Include="VBO.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EBO.h" />
+    <ClInclude Include="ShaderClass.h" />
+    <ClInclude Include="VAO.h" />
+    <ClInclude Include="VBO.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default.frag" />
+    <None Include="default.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="default_dirt.png" />
+    <Image Include="dvd.png" />
+    <Image Include="hm.png" />
+    <Image Include="RM.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
